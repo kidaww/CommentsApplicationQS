@@ -5,31 +5,31 @@ A bit Bootstrap for decoration
 
 ## Implemented tasks:
 
-  * Main form consist of two text and one
+ ### * Main form consist of two text and one
 file inputs
 
 ![alt-текст](https://github.com/kidaww/CommentsApplicationQS/blob/master/readmesrc/1.png "Текст заголовка логотипа 1")
 
-  * User can comment an existing comment.
+ ### * User can comment an existing comment.
 To do this, click on the Reply button and the input form is ready to send a response. If you change your mind, just press cancel and the form will be come back in default state
 
 ![alt-текст](https://github.com/kidaww/CommentsApplicationQS/blob/master/readmesrc/w.png "Текст заголовка логотипа 1")
 
-  * User can edit comment
+ ### * User can edit comment
 
 ![alt-текст](https://github.com/kidaww/CommentsApplicationQS/blob/master/readmesrc/3.png "Текст заголовка логотипа 1")
 
-  * Form validator
+ ### * Form validator
 Don't worry, you can't send empty message or stay anonymous. Form validator hates empty fields.
 
 ![alt-текст](https://github.com/kidaww/CommentsApplicationQS/blob/master/readmesrc/4.png "Текст заголовка логотипа 1")
 
-  * Accept only jpg, png as user avatar.
+ ### * Accept only jpg, png as user avatar.
 I really do not mind getting a funny video or a couple of cool tracks, but for comment it's better to have a simple photo in .png or .jpg format
 
 ![alt-текст](https://github.com/kidaww/CommentsApplicationQS/blob/master/readmesrc/5.png "Текст заголовка логотипа 1")
 
-  * Confirmation window before remove comment.
+ ### * Confirmation window before remove comment.
 Buttons are so close to each other, yeah? It is very easy to delete important comment instead update it? Relax, confirmation window will warn you :)
 
 ![alt-текст](https://github.com/kidaww/CommentsApplicationQS/blob/master/readmesrc/6.png "Текст заголовка логотипа 1")
