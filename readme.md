@@ -3,11 +3,10 @@ Great comments service based on Node.js and Express
 As view engine is used EJS
 A bit Bootstrap for decoration
 
-## About
+## How to
 
-a listen port - 3000
-main server in server.js
-For launching run in a root of project directory
+A listen port - 3000. Server runs in server.js.
+Run in a root of project directory command
 ```
 node server
 ```
