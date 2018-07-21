@@ -3,6 +3,16 @@ Great comments service based on Node.js and Express
 As view engine is used EJS
 A bit Bootstrap for decoration
 
+## About
+
+a listen port - 3000
+main server in server.js
+For launching run in a root of project directory
+```
+node server
+```
+And then open localhost:3000
+
 ## Implemented tasks:
 
  ### * Main form consist of two text and one
