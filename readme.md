@@ -14,8 +14,7 @@ And then open localhost:3000
 
 ## Implemented tasks:
 
- ### * Main form consist of two text and one
-file inputs
+ ### * Main form consist of two text and one file inputs
 
 ![alt-текст](https://github.com/kidaww/CommentsApplicationQS/blob/master/readmesrc/1.png "Текст заголовка логотипа 1")
 
