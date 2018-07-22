@@ -1,7 +1,7 @@
 # CommentsApplication
-Great comments service based on Node.js and Express
-As view engine is used EJS
-A bit Bootstrap for decoration
+  * Great comments service based on Node.js and Express
+  * As view engine is used EJS
+  * A bit Bootstrap for decoration
 
 ## How to
 
