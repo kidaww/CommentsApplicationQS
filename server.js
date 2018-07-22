@@ -17,13 +17,6 @@ app.get('/',function(req,res) {
 	readComments();
     res.render("index", data);
 });
-
-/*//get all comments
-app.get('/comments',function(req,res) {
-    readComments();
-    console.log("wa s readed!");
-    res.send(data);
-});*/
 //add comment
 app.post('/comments',function(req,res) {
     console.log(req.files);
@@ -33,19 +26,13 @@ app.post('/comments',function(req,res) {
 	}
 	else {
 		// The name of the input field (i.e. "file") is used to retrieve the uploaded file
-	  let sampleFile = req.files.file;
-	  
-	  // ) method to place the file somewhere on server
+		let sampleFile = req.files.file;
+		// ) method to place the file somewhere on server
 	  sampleFile.mv('./public/avatar' + data.id + '.jpg', function(err) {
 	  	addComment(req.body, 'avatar' + data.id + '.jpg');
 	  	res.redirect('/');
 	  });
-	}
- 
-	  
-
-    
-    
+	}  
 });
 //update comment
 app.post('/comments/:id/update',function(req,res) {
@@ -58,7 +45,6 @@ app.post('/comments/:id/delete',function(req,res) {
     removeComment(req.params.id.toString());
     res.redirect('/');
 });
-
 
 
 //reading json from a file
@@ -104,18 +90,12 @@ function removeComment(del_id) { //remove by id
 	console.log('DC AFTER: ' + JSON.stringify(data.comments));
 	removeChilds(del_id);
 	data = temp_data;
-	/*//remov childs
-	data.comments = data.comments.filter(function(el) {
-		return el.parentId.toString() !== del_id;
-	});*/
-
 	writeJson();
 }
 function updateComment(body) { //update by id
 	readComments();
 	console.log("up:" + body.id);
 	data.comments = data.comments.map(function(el) {
-
 		if (el.id === body.id) {
 			if (body.file == undefined) {
 				body.image = 'default.png';
